@@ -1,4 +1,4 @@
-# Mygpt
+# MyGPT
 
 Mygpt is a simple web application built using React, CSS, and a Node.js backend. It demonstrates the basic structure and functionality of a chat application using GPT-3.5-turbo from OpenAI. This README file will help you understand the project and its codebase.
 
