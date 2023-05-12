@@ -28,22 +28,22 @@ git clone https://github.com/yourusername/Mygpt.git
 ```
 2. Install the required dependencies:
 
-\`\`\`bash
+```bash
 cd Mygpt
 npm install
-\`\`\`
+```
 
 3. Set up your `.env` file with your OpenAI API key:
 
-\`\`\`bash
+```bash
 echo "API_KEY=your_openai_api_key" > .env
-\`\`\`
+```
 
 4. Start the development server:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ## Usage
 
