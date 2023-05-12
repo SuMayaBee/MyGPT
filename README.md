@@ -48,3 +48,25 @@ npm start
 ## Usage
 
 Once the server is running, navigate to `http://localhost:8005` in your web browser to interact with the chat application.
+
+## Code Explanation
+
+### App.js
+
+`App.js` is the main React component that contains the chat functionality and logic. It includes the following key features:
+
+- State management using the `useState` and `useEffect` hooks.
+- `createNewChat` function: Resets the current chat state and prepares for a new chat session.
+- `handleClick` function: Changes the active chat based on the unique title.
+- `getMessages` function: Sends a POST request to the backend server to fetch the AI-generated response.
+- `handleSubmit` function: Handles the form submission event to trigger the `getMessages` function.
+- Rendering of the chat history and user interface for sending messages.
+
+### server.js
+
+`server.js` is the Node.js backend server that handles API requests to OpenAI. It includes the following key features:
+
+- Express.js app setup with CORS middleware.
+- Loading of the OpenAI API key from the `.env` file using `dotenv`.
+- `/completions` route: Handles the POST request from the frontend to fetch AI-generated responses. It sends the user message as input to the OpenAI API and receives the AI-generated message as output. The response is then sent back to the frontend.
+
