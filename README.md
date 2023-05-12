@@ -70,3 +70,16 @@ Once the server is running, navigate to `http://localhost:8005` in your web brow
 - Loading of the OpenAI API key from the `.env` file using `dotenv`.
 - `/completions` route: Handles the POST request from the frontend to fetch AI-generated responses. It sends the user message as input to the OpenAI API and receives the AI-generated message as output. The response is then sent back to the frontend.
 
+## File Structure
+
+The main files of the project include:
+
+- `index.js`: The entry point for the React application.
+- `App.js`: The main React component that contains the chat functionality and logic.
+- `index.css`: The stylesheet for the application.
+- `server.js`: The Node.js backend server that handles API requests to OpenAI.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
