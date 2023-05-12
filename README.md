@@ -25,4 +25,26 @@ To set up the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/yourusername/Mygpt.git
+```
+2. Install the required dependencies:
 
+\`\`\`bash
+cd Mygpt
+npm install
+\`\`\`
+
+3. Set up your `.env` file with your OpenAI API key:
+
+\`\`\`bash
+echo "API_KEY=your_openai_api_key" > .env
+\`\`\`
+
+4. Start the development server:
+
+\`\`\`bash
+npm start
+\`\`\`
+
+## Usage
+
+Once the server is running, navigate to `http://localhost:8005` in your web browser to interact with the chat application.
