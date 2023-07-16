@@ -2,6 +2,12 @@
 
 Mygpt is a simple web application built using React, CSS, and a Node.js backend. It demonstrates the basic structure and functionality of a chat application using GPT-3.5-turbo from OpenAI. This README file will help you understand the project and its codebase.
 
+
+
+https://github.com/Sumaiya-369/MyGPT/assets/126413802/7652b841-9d3e-4948-9e31-0b5788217d07
+
+
+
 ## Table of Contents
 
 - [Overview](#overview)
